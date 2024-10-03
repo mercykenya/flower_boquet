@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 75px;
+  pointer-events: none;
+  margin: auto; /* Center the logo vertically and horizontally */
+}
+
+.App-header {
+  background-color: #ffdb58; /* Mustard color */
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row; /* Horizontal bar */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space out the items */
+  padding: 0 20px; /* Add some padding to the sides */
+}
+
+.App-link {
+  color: #d8a420;
+}
+
+.cart-items {
+  text-align: left;
+  width: 350px;
+  left: 50vw;
+  position: sticky;
+}

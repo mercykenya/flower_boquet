@@ -1,0 +1,23 @@
+.custom-button {
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  height: 3rem;
+  width: 90%;
+  max-width: 30rem;
+  margin: 0.5rem 0;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+  border: #000;
+  outline: solid 1px #000;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-button:active {
+  background-color: #45a049;
+  transform: translateY(4px);
+}
